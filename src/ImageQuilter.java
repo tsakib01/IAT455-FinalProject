@@ -623,7 +623,6 @@ class ImageQuilter extends JFrame implements ActionListener {
 
     
 	
-	
 	public void paint(Graphics g) {
 		super.paint(g);
 		
@@ -646,7 +645,7 @@ class ImageQuilter extends JFrame implements ActionListener {
         g.drawString("Minimum Error Tolerance:", 350, 120);
 		initialToleranceText.setBounds(525, 75, 50, 25);
 
-        g.drawString("Error Tolerance Inrement:", 650, 120);
+        g.drawString("Error Tolerance Increment:", 650, 120);
 		toleranceIncrementText.setBounds(825, 75, 50, 25);
 
         g.drawString("Maximum Error Tolerance:", 950, 120);
